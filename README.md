@@ -9,3 +9,5 @@ Pipeline of the algorithm:
 5. Compare this acoustic features with the ones extracted from the sound data set, and based on the euclidean distance, look for the samples that presents the closest values to the ones from the loops
 
 For further development more acoustic features shall be implemented, as well as a data augmentation module to add compressors and reverbs to the snare sounds from the data set.
+
+Beatclean.wav and snares.zip are sample files with which the tool has been tested (they are implemented in the code).
