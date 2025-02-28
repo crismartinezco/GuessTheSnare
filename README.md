@@ -15,7 +15,7 @@ This project recommends sounds from a user-provided sound library that are sonic
 ## Dependencies
 This project requires the following Python libraries:
 ```bash
-pip install numpy scipy librosa matplotlib pandas scikit-learn adjustText soundfile
+pip install numpy scipy librosa matplotlib pandas scikit-learn soundfile
 ```
 ## Usage
 1. **Load your loop and your sound library**
