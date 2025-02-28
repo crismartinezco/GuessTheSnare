@@ -1,7 +1,7 @@
 # 🥁 GuessTheSnare: Analysis and Clustering of Drum Sounds
 
 ## Overview
-This project focuses on the analysis of drum sounds in an audio file. It utilizes onset detection, feature extraction, and clustering to separate different percussive elements (e.g., kick, snare, hi-hat). The clustered onsets are further processed to generate concatenated audio samples for each percussion type.
+This project focuses on the analysis of drum sounds in an audio file. It utilizes onset detection, feature extraction, and clustering to separate different percussive elements (e.g., kick, snare, hi-hat). The clustered onsets are further processed to generate concatenated audio samples for each percussion type. Check the JUPYTER version, since the py file is still being worked on.
 
 ## Features
 - **Onset Detection**: Identifies transient events in the audio.
