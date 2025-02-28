@@ -17,21 +17,8 @@ This project requires the following Python libraries:
 ```bash
 pip install numpy scipy librosa matplotlib pandas scikit-learn adjustText soundfile
 ```
-
-## File Structure
-```
-GuessTheSnare/
-├── main.py                # Main script for onset detection, clustering, and concatenation
-├── BeatClean.wav          # Example audio file
-├── concatenated_snare.wav # Output file containing extracted snare onsets
-├── Cluster1.wav           # Click-marked audio from cluster 1
-├── Cluster2.wav           # Click-marked audio from cluster 2
-├── Cluster3.wav           # Click-marked audio from cluster 3
-├── README.md              # Project documentation
-```
-
 ## Usage
-1. **Load the audio file**
+1. **Load your loop and your sound library**
    - The script loads `BeatClean.wav` and detects onsets. Change to \your\audio\path.
 
 2. **Extract onset features**
@@ -43,8 +30,8 @@ GuessTheSnare/
 4. **Visualize clustering results**
    - The script generates scatter plots of extracted features and overlays detected onsets on the waveform.
 
-5. **Concatenate and export clustered onsets**
-   - Extracted percussive sounds are concatenated and saved as new audio files.
+5. **Listen, compare and decide! ;)**
+   - Extracted percussive sounds are played. Infor regarding name of the chosen sound sample from your library is provided.
 
 Run the script:
 ```bash
