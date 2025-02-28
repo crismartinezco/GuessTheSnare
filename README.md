@@ -1,7 +1,10 @@
-# 🥁 GuessTheSnare: Analysis and Clustering of Drum Sounds
+# 🥁 GuessTheSnare: Sonic Similarity-Based Recommendation Model for Drums
 
 ## Overview
-This project focuses on the analysis of drum sounds in an audio file. It utilizes onset detection, feature extraction, and clustering to separate different percussive elements (e.g., kick, snare, hi-hat). The clustered onsets are further processed to generate concatenated audio samples for each percussion type. Check the JUPYTER version, since the py file is still being worked on.
+This project recommends sounds from a user-provided sound library that are sonically (psychoacoustically) similar to the sounds extracted from a target user-provided loop. This is done by extracting and classifying the onsets of the provided loop into kick, hh and snare and comparing the acoustic characteristics of said onsets to those of the sounds in the provided sound library. It utilizes onset detection, spectral centroid and flatness, and K-Means clustering. Check the JUPYTER version, since the py file is still being worked on. Here an example is provided for snares.
+
+![Extracted Onsets](extracted onsets.png)
+
 
 ## Features
 - **Onset Detection**: Identifies transient events in the audio.
