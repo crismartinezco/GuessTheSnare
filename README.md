@@ -3,7 +3,7 @@
 ## Overview
 This project recommends sounds from a user-provided sound library that are sonically (psychoacoustically) similar to the sounds extracted from a target user-provided loop. This is done by extracting and classifying the onsets of the provided loop into kick, hh and snare and comparing the acoustic characteristics of said onsets to those of the sounds in the provided sound library. It utilizes onset detection, spectral centroid and flatness, and K-Means clustering. Check the JUPYTER version, since the py file is still being worked on. Here an example is provided for snares.
 
-![Extracted Onsets](extracted onsets.png)
+![Extracted Onsets]([extracted onsets.png](https://github.com/crismartinezco/GuessTheSnare/blob/main/Clustering.png))
 
 
 ## Features
